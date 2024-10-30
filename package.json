@@ -1,8 +1,9 @@
 {
   "name": "eslint-flat-config-react",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A set of opinionated ESLint rules (all rules included) tailored for React projects using Eslint's flat configuration format.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -23,7 +24,7 @@
   },
   "homepage": "https://github.com/romen2232/eslint-flat-config-react",
   "devDependencies": {
-    "babel-eslint": "^10.1.0",
+    "@babel/eslint-parser": "^7.25.9",
     "eslint-plugin-react": "^7.37.2"
   }
 }

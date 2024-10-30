@@ -1,5 +1,5 @@
 # eslint-config-react
-A set of opinionated ESLint (http://eslint.org) rules (all rules included) tailored for React projects
+A set of opinionated ESLint (http://eslint.org) rules (all rules included) tailored for React projects using Eslint's flat configuration format (http://eslint.org/docs/user-guide/configuring#using-a-configuration-file).
 
 ## Usage:
 1. `npm install --save-dev eslint-config-react babel-eslint eslint-plugin-react`

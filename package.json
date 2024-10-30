@@ -1,23 +1,29 @@
 {
-  "name": "eslint-config-react",
-  "version": "1.1.7",
-  "description": "A set of opinionated ESLint rules (all rules included) tailored for React projects",
+  "name": "eslint-flat-config-react",
+  "version": "1.0.0",
+  "description": "A set of opinionated ESLint rules (all rules included) tailored for React projects using Eslint's flat configuration format.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/patrio/eslint-config-react.git"
+    "url": "https://github.com/romen2232/eslint-flat-config-react.git"
   },
   "keywords": [
     "eslint",
-    "eslintconfig"
+    "eslintconfig",
+    "react",
+    "flatconfig"
   ],
-  "author": "Patric Nordmark <patric.nordmark@dice.se>",
+  "author": "Romen Medina <romenmedbel@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/patrio/eslint-config-react/issues"
+    "url": "https://github.com/romen2232/eslint-flat-config-react/issues"
   },
-  "homepage": "https://github.com/patrio/eslint-config-react"
+  "homepage": "https://github.com/romen2232/eslint-flat-config-react",
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint-plugin-react": "^7.37.2"
+  }
 }
